@@ -15,12 +15,12 @@ const TodoListItem = ({ label, important = false}) => {
             </span>
 
             <button type="button"
-                    className="btn btn-outline-success btn-sm float-right">
+                    className="btn btn-outline-success btn-sm float-end">
                 <i className="fa fa-exclamation"></i>
             </button>
 
             <button type="button"
-                    className="btn btn-outline-danger btn-sm float-right">
+                    className="btn btn-outline-danger btn-sm float-end">
                 <i className="fa fa-trash-o"></i>
             </button>
         </span>
